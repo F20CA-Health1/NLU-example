@@ -3,7 +3,7 @@ from openai import AzureOpenAI
 
 
 os.environ['OPENAI_GPT_KEY'] = 'XXXXXXXXXXXXXX' # Change to your AzureOpenAI key
-os.environ['AZURE_ENDPOINT_GPT'] = 'https://XXXXXXXXXXXXXX.cognitiveservices.azure.com/openai/deployments/gpt-35-turbo/chat/completions?api-version=2024-08-01-preview'
+os.environ['AZURE_ENDPOINT_GPT'] = 'https://XXXXXXXXXXXXXX.cognitiveservices.azure.com/openai/deployments/gpt-35-turbo/chat/completions?api-version=2024-08-01-preview' # Change to your endpoint
 os.environ['GPT_MODEL_NAME'] = 'gpt-35-turbo'
 
 gpt_35 = AzureOpenAI(
